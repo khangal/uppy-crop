@@ -1,0 +1,35 @@
+{
+  "name": "uppy-crop",
+  "version": "1.0.0",
+  "description": "Uppy plugin that allows cropping.",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src/index.js -o lib/index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khangal/uppy-crop.git"
+  },
+  "author": "Khangal Jargalsaikhan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/khangal/uppy-crop/issues"
+  },
+  "homepage": "https://github.com/khangal/uppy-crop#readme",
+  "dependencies": {
+    "@uppy/core": "^1.6.0",
+    "@uppy/utils": "^2.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "preact": "8.2.9",
+    "webpack": "^4.41.2"
+  },
+  "peerDependencies": {
+    "@uppy/core": "^1.0.0"
+  }
+}
